@@ -34,7 +34,6 @@ export default function NewIncident() {
       headers: {
         Authorization: ongId
       }})
-      alert(`Incident postado com sucess`)
       history.push('/profile')
 
     } catch (err) {
